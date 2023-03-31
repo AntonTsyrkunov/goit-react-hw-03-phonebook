@@ -1,0 +1,31 @@
+.contact_list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+}
+
+.contacts_wrapper {
+    margin-top: 16px;
+    height: 202px;
+    overflow-y: scroll;
+}
+
+.contact_list_item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.remove_button {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 128, 0.4);
+    padding: 5px;
+    cursor: pointer;
+    border-color: inherit;
+}
+
+.remove_button:hover {
+    box-shadow: inset 0px 0px 9px 2px rgba(66, 68, 90, 1);
+}
